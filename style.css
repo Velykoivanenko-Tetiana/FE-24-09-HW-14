@@ -1,0 +1,399 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  margin-top: 161px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 87px;
+  margin-right: 87px;
+  flex-direction: row;
+  margin-top: 48px;
+}
+
+.nav {
+  background: url(nav.png) no-repeat;
+  width: 24px;
+  height: 16px;
+  border: none;
+  align-self: baseline;
+  background-size: contain;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  height: 471px;
+  left: 0px;
+  top: 19px;
+  background: url(Mask.png) no-repeat;
+  background-size: 100% 271px;
+  background-position: center;
+}
+
+.Lorem1 {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.4);
+  margin-top: 16px;
+}
+
+form {
+  width: 940px;
+  height: 56px;
+  margin-top: 106px;
+  background: #F4F4F4;
+  border-radius: 10px;
+  padding-left: 27px;
+}
+
+.search_form {
+  border-color: #F4F4F4;
+  background-color: #F4F4F4;
+  height: 40px;
+  width: 700px;
+  padding-left: 27px;
+  outline: none;
+  border: none;
+}
+
+::-moz-placeholder {
+  font-size: 16px;
+  line-height: 19px;
+  color: #1F3F68;
+  opacity: 0.6;
+}
+
+:-ms-input-placeholder {
+  font-size: 16px;
+  line-height: 19px;
+  color: #1F3F68;
+  opacity: 0.6;
+}
+
+::placeholder {
+  font-size: 16px;
+  line-height: 19px;
+  color: #1F3F68;
+  opacity: 0.6;
+}
+
+.search {
+  background: url(search.png);
+  background-size: 17.49px;
+  height: 17.49px;
+  width: 17.49px;
+  margin-top: 19px;
+  border: none;
+}
+
+.container {
+  width: 940px;
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.popular {
+  margin-top: 68px;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.04em;
+  color: #356EAD;
+  opacity: 0.8;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.Lorem2 {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  color: #000000;
+  opacity: 0.6;
+  text-align: left;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+.home {
+  max-width: 100%;
+  margin-top: 30px;
+}
+
+.col-1 {
+  flex: 0 0 45%;
+  max-width: 45%;
+}
+
+.col-2 {
+  flex: 0 0 55%;
+  max-width: 55%;
+  padding-left: 20px;
+}
+
+.feugiat {
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  margin-right: 20px;
+}
+
+.Samatha {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  text-align: left;
+}
+
+.data {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  opacity: 0.4;
+  margin-top: -6px;
+}
+
+.col_flag {
+  margin-left: 95px;
+  margin-top: 30px;
+}
+
+.flag {
+  margin-left: 38px;
+}
+
+.col-3 {
+  flex: 0 0 33%;
+  max-width: 300px;
+  margin-top: 32px;
+}
+
+.col-31 {
+  flex: 0 0 33%;
+  max-width: 300px;
+  margin-top: 32px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.porta {
+  font-size: 28px;
+  line-height: 38px;
+  color: #1F3F68;
+}
+
+.Lorem3 {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.vector {
+  width: 940px;
+  height: 0px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-top: 24px;
+}
+
+.see {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #356EAD;
+  opacity: 0.8;
+  margin-top: 54px;
+}
+
+.all {
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.04em;
+  color: #356EAD;
+  opacity: 0.8;
+  margin-top: 56px;
+}
+
+.massa {
+  font-size: 20px;
+  line-height: 33px;
+  color: #1F3F68;
+  margin-bottom: 10px;
+  margin-top: 23px;
+}
+
+.Lorem4 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.New {
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: #356EAD;
+  margin-top: 56px;
+  margin-left: 19px;
+  margin-right: 19px;
+}
+
+.arrow {
+  margin-top: 60px;
+  width: 12px;
+  height: 12px;
+}
+
+.row1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  left: 0px;
+  height: 869px;
+  background: #316099;
+  border-radius: 0px 200px 0px 0px;
+  margin-top: 96px;
+}
+
+.interested {
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  margin-top: 91px;
+}
+
+.Lorem5 {
+  width: 460px;
+  height: 80px;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 32px;
+  color: #FFFFFF;
+}
+
+.button {
+  width: 220px;
+  height: 56px;
+  background: #5A98D0;
+  border-radius: 10px;
+  border-color: #316099;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  margin-left: 180px;
+  margin-top: 165px;
+}
+
+.vector2 {
+  width: 1073px;
+  height: 0px;
+  left: 0px;
+  top: 3398px;
+  opacity: 0.4;
+  border: 1px solid #FFFFFF;
+  margin-top: 96px;
+}
+
+.afrianska {
+  font-size: 28px;
+  line-height: 46px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+
+.about {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+
+.col1 {
+  margin-top: 70px;
+  width: 30%;
+}
+
+.col2 {
+  margin-top: 76px;
+  margin-left: 100px;
+  width: 30%;
+}
+
+li {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  list-style: none;
+  margin-top: 16px;
+}
+
+ul {
+  -webkit-padding-start: 0px;
+          padding-inline-start: 0px;
+}
+
+.follow {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+
+.col3 {
+  margin-left: 77px;
+  margin-top: 76px;
+  width: 30%;
+}
+
+.bottom {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  opacity: 0.4;
+  margin-top: 64px;
+}
+
+span {
+  margin-right: 16px;
+  font-weight: 700;
+}
+
+.afrianska {
+  background: url(logo_bottom.png) no-repeat;
+  padding-left: 64px;
+  background-size: 48px;
+}/*# sourceMappingURL=style.css.map */
